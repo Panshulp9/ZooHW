@@ -1,6 +1,16 @@
 public class Emirates extends Airplane {
+    private int numOfFlights;
 Emirates(){
     isDoubleDecker = true;
+    numOfFlights = 389;
+}
+
+public int getNumOfFlights(){
+    return numOfFlights;
+}
+
+public void setNumOfFlights(int numOfFlights){
+    this.numOfFlights = numOfFlights;
 }
 
     @Override

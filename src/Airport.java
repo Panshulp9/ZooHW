@@ -9,6 +9,8 @@ public class Airport {
         Emirates DXB = new Emirates();
         DXB.livery();
         DXB.destination();
+        DXB.setNumOfFlights(399);
+        System.out.println("Emirates operates: " + DXB.getNumOfFlights() + " flights");
         Qatar q = new Qatar();
         System.out.println(q.getDailyFlights());
         q.setDailyFlights(277);

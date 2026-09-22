@@ -1,6 +1,6 @@
 public class Qatar {
-    public int dailyFlights;
-    public int numOfExits;
+    private int dailyFlights;
+    private int numOfExits;
 
     public Qatar(){
         dailyFlights = 269;
