@@ -8,7 +8,7 @@ public class Etihad extends Airplane{
 
     @Override
     public void livery() {
-        System.out.println("Etihad Airways - Airbus 787-9");
+        System.out.println("Etihad Airways - Boeing 787-9");
         System.out.println("Manchester City livery");
     }
     public void destination(){
